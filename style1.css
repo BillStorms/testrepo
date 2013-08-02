@@ -11,15 +11,37 @@ body {
 
 }
 #background { 
-	background-image: url('city-of-bass-tee.jpg');
+	background-image: url('/images/city-of-bass-tee.jpg');
 	height:700px;
+	
 	}
 .box {
+
+	background-image: url('images/speaker.jpg');
+	background-position: center;
 	text-align: center;
 	height: 50px;
 	width: 150px;
-  	background-color:red;
+  	
 	border-width: 5px;
 	border-style: solid;
 	border-radius: 5px;
+	margin-top: 25px;
+	margin-left: 15px;	
+	display : inline-block;
+}
+
+.box2 {
+	background: white;
+	background-image: url('images/prettyprincess.jpg');
+	background-position: center;
+	text-align: center;
+	height: 250px;
+	width: 250px;
+  	border-width: 5px;
+	border-style: solid;
+	border-radius: 5px;
+	margin-top: 25px;
+	margin-left: 10px;	
+	
 }
