@@ -1,7 +1,10 @@
 body {
 	background-color : #ADD8E6 ;
 }
-
+a:link {color:#FF0000;}      /* unvisited link */
+a:visited {color:red;}  /* visited link */
+a:hover {color:white;}  /* mouse over link */
+a:active {color:#0000FF;}  /* selected link */
 #header {
 	border-radius: 5px;
 	background-color: white;
@@ -10,27 +13,20 @@ body {
 	border-style: solid;
 
 }
-#background { 
-	background-image: url('/images/city-of-bass-tee.jpg');
-	height:700px;
-	
-	}
 .box {
-
 	background-image: url('images/speaker.jpg');
 	background-position: center;
 	text-align: center;
 	height: 50px;
 	width: 150px;
-  	
-	border-width: 5px;
+	padding: 10px;
+  	border-width: 5px;
 	border-style: solid;
 	border-radius: 5px;
 	margin-top: 25px;
-	margin-left: 15px;	
+	margin-right: 10px;
 	display : inline-block;
 }
-
 .box2 {
 	background: white;
 	background-image: url('images/prettyprincess.jpg');
@@ -41,7 +37,7 @@ body {
   	border-width: 5px;
 	border-style: solid;
 	border-radius: 5px;
-	margin-top: 25px;
-	margin-left: 10px;	
-	
+	position : fixed;
+	bottom: 30px;
+	right : 5px;
 }
